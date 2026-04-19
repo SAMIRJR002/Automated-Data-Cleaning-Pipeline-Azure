@@ -264,9 +264,6 @@ All 221 rows were preserved.
 
 ![DataFlow](screenshots/02-dataflow.png)
 
-## Cleaning Transformations
-
-![Cleaning](screenshots/03-cleaning.png)
 
 ## Final Output
 
