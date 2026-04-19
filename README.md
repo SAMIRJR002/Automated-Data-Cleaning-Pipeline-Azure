@@ -193,22 +193,22 @@ So they appear last after sorting.
 Step 4 — Sort (SortByDate)
 
 Sorts:
-
-Column	Order
-sort_date	Descending
-
+---
+Column	       Order
+sort_date   	Descending
+----
 Most recent records appear first.
-
+----
 Step 5 — Select (DropSortKey)
 
 Removes:
-
+`
 sort_date
-
+`
 Final output keeps:
-
+`
 8 original columns
-
+`
 Step 6 — Sink (SinkCSV)
 
 Writes cleaned dataset to:
@@ -229,29 +229,33 @@ sales_cleaned.csv
 
 No rows were removed.
 All 221 rows were preserved.
-Column	Replacement Value
-order_id	'0'
-order_date	'unknown'
-customer_id	'unknown'
-product	'unknown'
-category	'unknown'
-quantity	0
-unit_price	0.0
-Total Amount	recalculated
+| Column         | Replacement Value |
+| -------------- | ----------------- |
+| `order_id`     | `'0'`             |
+| `order_date`   | `'unknown'`       |
+| `customer_id`  | `'unknown'`       |
+| `product`      | `'unknown'`       |
+| `category`     | `'unknown'`       |
+| `quantity`     | `0`               |
+| `unit_price`   | `0.0`             |
+| `Total Amount` | recalculated      |
+
 ⚠️ Common Pitfalls & Fixes
-Error	Cause	Fix
-Expression type mismatch	Mixed numeric/string defaults	Use '0' then cast
-Column not recognized	Column contains spaces	Use {Total Amount}
-Sorting incorrect	String-based sorting	Add sort_date column
-Negative totals	Wrong calculation order	Apply abs() before multiplication
+| Error                    | Cause                         | Fix                                 |
+| ------------------------ | ----------------------------- | ----------------------------------- |
+| Expression type mismatch | Mixed numeric/string defaults | Use `'0'` then cast                 |
+| Column not recognized    | Column contains spaces        | Use `{Total Amount}`                |
+| Sorting incorrect        | String-based sorting          | Add `sort_date` column              |
+| Negative totals          | Wrong calculation order       | Apply `abs()` before multiplication |
+
 📦 Output
 
-The cleaned dataset was successfully generated.
+| File                | Description           |
+| ------------------- | --------------------- |
+| `sales_cleaned.csv` | Final cleaned dataset |
+| Rows                | **221 rows**          |
+| Columns             | **8 columns**         |
 
-File	Description
-sales_cleaned.csv	Final cleaned dataset
-Rows	221 rows
-Columns	8 columns
 
 
 ## Pipeline Overview
