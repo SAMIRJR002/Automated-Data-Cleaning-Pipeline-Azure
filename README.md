@@ -199,13 +199,16 @@ Final output keeps:
 8 original columns
 
 Step 6 — Sink (SinkCSV)
+
 Writes cleaned dataset to:
+`
 Azure Data Lake Storage Gen2
 (output container)
-
+`
 Output file:
+``
 sales_cleaned.csv
-🗺️ Full Data Flow Canvas
+``
 ```
 ┌─────────┐   ┌────────────┐   ┌────────────┐   ┌────────────┐   ┌─────────────┐   ┌─────────┐
 │ source1 │ → │ FillAndFix │ → │ AddSortKey │ → │ SortByDate │ → │ DropSortKey │ → │ SinkCSV │
