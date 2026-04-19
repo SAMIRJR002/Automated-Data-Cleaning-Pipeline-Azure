@@ -285,11 +285,13 @@ All 221 rows were preserved.
 ![Output](screenshots/05-final-output.png)
 ---
 🛠 Tech Stack
-Tool	Purpose
-Azure Data Factory	Cloud ETL Pipeline
-Azure Data Lake Storage Gen2	Storage Layer
-Mapping Data Flow	Data Cleaning Engine
-CSV	Raw Dataset Format
+| Tool                         | Purpose              |
+| ---------------------------- | -------------------- |
+| Azure Data Factory           | Cloud ETL Pipeline   |
+| Azure Data Lake Storage Gen2 | Storage Layer        |
+| Mapping Data Flow            | Data Cleaning Engine |
+| CSV                          | Raw Dataset Format   |
+
 📈 Key Achievements
 
 ✔ Cleaned 221 records
