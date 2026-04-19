@@ -206,9 +206,11 @@ Azure Data Lake Storage Gen2
 Output file:
 sales_cleaned.csv
 🗺️ Full Data Flow Canvas
+```
 ┌─────────┐   ┌────────────┐   ┌────────────┐   ┌────────────┐   ┌─────────────┐   ┌─────────┐
 │ source1 │ → │ FillAndFix │ → │ AddSortKey │ → │ SortByDate │ → │ DropSortKey │ → │ SinkCSV │
 └─────────┘   └────────────┘   └────────────┘   └────────────┘   └─────────────┘   └─────────┘
+```
 🧹 Null Handling Strategy
 
 No rows were removed.
@@ -238,23 +240,22 @@ Rows	221 rows
 Columns	8 columns
 
 
-Add:
-
 ## Pipeline Overview
 
-(<img width="3839" height="1911" alt="Pipeline" src="https://github.com/user-attachments/assets/6bd48bc5-135a-40e3-9dcb-a5d0fea9f0d3" />
-)
+![Pipeline](screenshots/01-pipeline.png)
 
 ## Data Flow Design
 
-(<img width="3836" height="1950" alt="Dataflow" src="https://github.com/user-attachments/assets/7fb90bd8-3b6b-4dfd-aaf0-944a4f90386d" />
-)
+![DataFlow](screenshots/02-dataflow.png)
 
+## Cleaning Transformations
+
+![Cleaning](screenshots/03-cleaning.png)
 
 ## Final Output
 
-(<img width="3839" height="1745" alt="image" src="https://github.com/user-attachments/assets/dd14abf1-279f-42c5-9b6d-b3de11a7afd5" />
-)
+![Output](screenshots/04-output.png)
+
 🛠 Tech Stack
 Tool	Purpose
 Azure Data Factory	Cloud ETL Pipeline
