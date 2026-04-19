@@ -242,18 +242,18 @@ Add:
 
 ## Pipeline Overview
 
-![Pipeline](<img width="3839" height="1911" alt="Pipeline" src="https://github.com/user-attachments/assets/6bd48bc5-135a-40e3-9dcb-a5d0fea9f0d3" />
+(<img width="3839" height="1911" alt="Pipeline" src="https://github.com/user-attachments/assets/6bd48bc5-135a-40e3-9dcb-a5d0fea9f0d3" />
 )
 
 ## Data Flow Design
 
-![DataFlow](<img width="3836" height="1950" alt="Dataflow" src="https://github.com/user-attachments/assets/7fb90bd8-3b6b-4dfd-aaf0-944a4f90386d" />
+(<img width="3836" height="1950" alt="Dataflow" src="https://github.com/user-attachments/assets/7fb90bd8-3b6b-4dfd-aaf0-944a4f90386d" />
 )
 
 
 ## Final Output
 
-![Output](<img width="3839" height="1745" alt="image" src="https://github.com/user-attachments/assets/dd14abf1-279f-42c5-9b6d-b3de11a7afd5" />
+(<img width="3839" height="1745" alt="image" src="https://github.com/user-attachments/assets/dd14abf1-279f-42c5-9b6d-b3de11a7afd5" />
 )
 🛠 Tech Stack
 Tool	Purpose
