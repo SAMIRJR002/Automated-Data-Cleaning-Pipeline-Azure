@@ -254,21 +254,36 @@ All 221 rows were preserved.
 | Rows                | **221 rows**          |
 | Columns             | **8 columns**         |
 
-
+# 📸 Pipeline Screenshots
 
 ## Pipeline Overview
 
-![Pipeline](screenshots/01-pipeline.png)
+![Pipeline Overview](screenshots/01-pipeline-overview.png)
+
+---
 
 ## Data Flow Design
 
-![DataFlow](screenshots/02-dataflow.png)
+![Data Flow](screenshots/02-dataflow-design.png)
 
+---
+
+## Fill and Fix Transformation
+
+![FillAndFix](screenshots/03-fill-and-fix.png)
+
+---
+
+## Sorting Step
+
+![Sort](screenshots/04-sort-step.png)
+
+---
 
 ## Final Output
 
-![Output](screenshots/04-output.png)
-
+![Output](screenshots/05-final-output.png)
+---
 🛠 Tech Stack
 Tool	Purpose
 Azure Data Factory	Cloud ETL Pipeline
